@@ -1,0 +1,92 @@
+body{
+    background-color: #77B0AA;
+}
+.name-card{
+    float: right;
+    border: 2px solid #135D66 ;
+    border-radius: 3%; 
+    height: 650px;
+    color: white;
+    background-color: #135D66;
+    margin-top: 10px;
+    
+}
+#profile-pic{
+    height: 500px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius:15%;
+}
+.Summary{
+    margin: 10px;
+    padding: 9px;
+    background-color:#003C43;
+    color: white;
+    font-family:sans-serif ;
+    border-radius: 20px;
+}
+.Education{
+    margin: 10px;
+    padding: 9px;
+    background-color:#003C43;
+    color: white;
+    font-family:sans-serif ;
+    border-radius: 20px;
+}
+.skills{
+    margin: 10px;
+    padding: 9px;
+    background-color:#003C43;
+    color: white;
+    font-family:sans-serif ;
+    border-radius: 20px;
+}
+.Experience{
+    margin: 10px;
+    padding: 9px;
+    background-color:#003C43;
+    color: white;
+    font-family:sans-serif ;
+    border-radius: 20px;
+}
+.Certificate{
+    margin: 10px;
+    padding: 9px;
+    background-color:#003C43;
+    color: white;
+    font-family:sans-serif ;
+    border-radius: 20px;
+}
+.Certificate a{
+    float: right;
+    color: yellowgreen;
+}
+.Others{
+    margin: 10px;
+    padding: 9px;
+    background-color:#003C43;
+    color: white;
+    font-family:sans-serif ;
+    border-radius: 20px;
+}
+.Others a{
+    color: yellowgreen;
+}
+
+@media (max-width:680px){
+    .name-card{
+        display: block;
+        width: 100%;
+        /* border: 10px solid black; */
+        height: 450px;
+        color: white;
+        
+    }
+    #profile-pic{
+        height: 300px;
+        margin: 5px;
+        margin-top: 10px;
+        border-radius:15%;
+    }
+    }
+
